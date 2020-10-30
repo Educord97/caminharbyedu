@@ -1,0 +1,225 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    margin-right: auto;    
+    margin-left: auto;
+    margin-top: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+  
+}
+
+/*Capa imagem Mulher caminhando*/
+
+.capa {
+    text-align: center;
+    background: white;
+    padding-bottom: 3em;
+
+}
+
+.capa-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.capa-box h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 1em;
+    line-height: 32px;   
+}
+
+.capa-box p {
+    color: #ccc;
+    
+}
+
+.capa-img {
+    filter: grayscale(30%)
+}
+
+.title-capa-h3 {
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 27px;
+
+    
+}
+
+.capa-box-bottom {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    line-height: 4em;
+}
+
+.border-h3 {
+    border-bottom: 2px solid rgba(0,0,0, .1);
+    padding-bottom: 14px;
+}
+
+
+.text-image {
+    background: #F5F5F5;
+    margin: ;
+    padding: 5em 5em 3em;
+    text-align: left;
+}
+
+.text-image p {
+    color: #808080;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-image p:nth-child(1) {
+    margin-bottom: 2em;
+}
+
+/*Section Quatro imagens*/
+
+.four-images {
+   margin-bottom: 4em;
+}
+
+.container-black-four {
+
+}
+
+.capa-four {
+    background: #1C1C1C;
+
+    
+}
+
+.black-h3 {
+    color: white;
+}
+
+.black-border {
+    border-bottom: 2px solid rgba(255,255,255, .2);
+    padding-bottom: 14px;
+}
+
+.black-subtitle {
+    color: rgba(255,255,255, .5);
+    font-size: 14px;
+}
+
+.four-grid-image {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+}
+
+/*Section Photos & Text*/
+
+.photo-text {
+    background: #1C1C1C;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+}
+.sidebar-white {
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sidebar-white h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+
+.sidebar-white p {
+    color: #808080;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-left: 4em;
+}
+
+.sidebar-black {
+    background: #1C1C1C;
+}
+
+/*FOOTER*/ 
+
+footer {
+    padding: 3em 2em;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer a {
+    padding: 1em;
+    color: rgba(255,255,255, .5);
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    color: rgba(255,255,255, .5);
+    margin-top: 3em;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
